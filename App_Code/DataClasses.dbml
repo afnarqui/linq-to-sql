@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="wcf" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=OPASAS102\SQL2012;Initial Catalog=wcf;Persist Security Info=True;User ID=SA" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="wcfConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.copia" Member="copia">
+    <Type Name="copia">
+      <Column Name="idasociados" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="cedulasociado" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="salario" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="fechaingresoLabora" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="nombreintegrado" Type="System.String" DbType="VarChar(105)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
